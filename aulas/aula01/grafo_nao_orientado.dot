@@ -1,0 +1,31 @@
+graph g1 {
+
+    // Vétices
+
+    1 [shape=circle]
+    2 [shape=circle]
+    3 [shape=circle]
+    4 [shape=circle]
+    5 [shape=circle]
+    6 [shape=circle]
+    7 [shape=circle]
+    8 [shape=circle]
+
+    //Arestas
+
+    1--2
+    2--3
+    3--4
+    4--5
+    5--6
+    6--7
+    7--8
+    8--1 
+
+    //Diagonais
+    
+    1--6 
+    2--5
+    3--7
+    4--8
+}

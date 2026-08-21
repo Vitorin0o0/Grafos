@@ -1,0 +1,22 @@
+digraph g2 { 
+    
+    // Vétices
+
+    a [shape=circle]
+    b [shape=circle]
+    c [shape=circle]
+    d [shape=circle]
+    e [shape=circle]
+    f [shape=circle]
+
+
+    //Arestas
+
+    a -> b
+    a -> c
+    b -> d
+    c -> d
+    c -> e
+    d -> f
+    e -> f
+}
